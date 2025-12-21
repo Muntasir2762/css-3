@@ -48,6 +48,7 @@
     float: left;
     width: 33%;
     margin-top: 10px;
+    /* border: 1px solid black; */
 }
 
 .link{
@@ -266,5 +267,44 @@
 @media screen and (max-width: 350px){
     .project-item{
         width: 320px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-item-res1{
+        width: 40%;
+    }
+
+    .footer-item-res2{
+        width: 20%;
+    }
+
+    .footer-item-res3{
+        width: 40%;
+    }
+
+    .footer-item-res3 p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 502px) {
+
+
+    .footer-item-res2 h3{
+        font-size: 16px;
+    }
+
+    .footer-item-res3 h3{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+
+
+    .footer-item{
+        width: 100%;
+        text-align: center;
     }
 }
